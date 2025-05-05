@@ -1,6 +1,8 @@
 
 import { BarChart, Calendar, Star, TrendingUp, Users } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import BonusFeed from "./BonusFeed";
 import UserCard from "./UserCard";
 import { users } from "@/data/mockData";
